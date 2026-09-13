@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.biometric_vault"
+    namespace = "com.example.pioneer_safe"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -16,7 +16,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.example.biometric_vault"
+        applicationId = "com.example.pioneer_safe"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion

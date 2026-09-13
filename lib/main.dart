@@ -11,16 +11,16 @@ import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(const ProviderScope(child: BiometricVaultApp()));
+  runApp(const ProviderScope(child: PioneerSafeApp()));
 }
 
-class BiometricVaultApp extends StatelessWidget {
-  const BiometricVaultApp({super.key});
+class PioneerSafeApp extends StatelessWidget {
+  const PioneerSafeApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Biometric Vault',
+      title: 'PioneerSafe',
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.dark,
       theme: ThemeData(
