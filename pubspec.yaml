@@ -1,0 +1,27 @@
+name: biometric_vault
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.5.2
+  flutter_riverpod: ^3.4.3
+  flutter_secure_storage: ^11.1.1
+  google_fonts: ^8.2.1
+  image_picker: ^1.2.3
+  local_auth: ^3.0.2
+  path_provider: ^2.1.6
+  uuid: ^4.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
